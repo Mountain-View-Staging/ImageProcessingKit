@@ -1,0 +1,69 @@
+.DS_Store
+/com.xocialize.swfit-source-separation/weights
+
+
+# Python
+m0-prerequisites/.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# Models (large binary files — download via scripts)
+models/downloads/
+models/conversions/
+models/exports/
+# Keep the directories themselves tracked via .gitkeep
+!models/downloads/.gitkeep
+!models/conversions/.gitkeep
+!models/exports/.gitkeep
+
+# Test corpus media (large files — source manually)
+m0-prerequisites/test_corpus/clips/
+
+# Benchmark raw data (regenerable)
+benchmarks/*.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+RosettaCast/*.xcodeproj/xcuserdata/
+RosettaCast/*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+*.swp
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Claude
+.claude/
+project_test/
+I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too/S01/I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too_S01E01_To Another World.mp4
+I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too/S01/I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too_S01E02_Ousei Academy.mp4
+/com.xocialize.icl-clone-eval/output
+/com.xocialize.icl-clone-eval/reference-audio
+*.m4v
+/models
+
+# Reorg: research & media buckets
+_research/swift-qwen3-tts-reference
+_research/qwen3-tts-demo-main
+_research/check
+_research/huggingface
+_research/Qwen3TTS-Swift
+_research/VoxCPM
+_media/
+.swiftpm/xcode/xcuserdata/dustin.xcuserdatad/xcschemes/xcschememanagement.plist
