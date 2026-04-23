@@ -16,7 +16,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../LoggingKit"),
+        .package(url: "https://github.com/Mountain-View-Staging/LoggingKit.git", from: "1.0.0"),
     ],
     targets: [
         .target(
